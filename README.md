@@ -6,7 +6,7 @@ Let's assume that docker is installed and running in the local machine. Then:
 > docker pull ac744/model-training
 
 Run the docker image, binding the docker machine port to the local port
-> docker run -p 8888:8888 model-training 
+> docker run -p 8888:8888 ac744/model-training 
 
 copy paste the URL that appears on the terminal to access the jupyter notebook.
 
